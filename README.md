@@ -5,9 +5,14 @@ Experimental implementation of a management system for the parallelization of ne
 
 **Dependencies** : conda
 
-```bash
-git clone https://github.com/lepapebrice7/katioucha.git
-cd katioucha
-conda env create --name <your env name> --file environment.yml
-conda activate <your env name>
-````
+After cloning the repo, at the root of the project :
+```sh
+./install.sh
+```
+
+## Usage
+
+Activate conda environment using :
+```sh
+conda activate kat-env
+```
